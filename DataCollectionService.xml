@@ -1,0 +1,537 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ConfigDoc name="DataCollectionService">
+	<HHPReserved name="Tool Version">
+		<Key name="EXMVersion">1.0.1</Key>
+	</HHPReserved>
+	<Section name="wedge">
+		<Section name="defaults">
+			<Key name="DPR_LAUNCH_BROWSER" path="/wedge/defaults/DEFAULT">true</Key>
+			<Key name="DEC_WINDOW_BOTTOM" path="/wedge/defaults/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+			<Key name="DEC_UPCE_ADDENDA_SEPARATOR" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+			<Key name="PREF_GRIDMATRIX" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_MICROPDF_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MICRO_PDF_417">1</Key>
+			<Key name="TRIG_SCAN_SAME_SYMBOL_TIMEOUT" path="/wedge/defaults/DEFAULT">1000</Key>
+			<Key name="DEC_TELEPEN_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TELEPEN">1</Key>
+			<Key name="DEC_CODE39_START_STOP_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+			<Key name="DEC_TELEPEN_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TELEPEN">60</Key>
+			<Key name="DEC_MICROPDF_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MICRO_PDF_417">366</Key>
+			<Key name="DEC_EAN8_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_8">true</Key>
+			<Key name="TRIG_ENABLE" path="/wedge/defaults/DEFAULT">true</Key>
+			<Key name="DEC_TRIOPTIC_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TRIOPTIC">false</Key>
+			<Key name="DEC_CODE39_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">48</Key>
+			<Key name="DEC_MSI_CHECK_DIGIT_MODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MSI">noCheck</Key>
+			<Key name="DEC_SYMBOLOGY_TIMEOUT" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">500</Key>
+			<Key name="IMG_EXPOSURE" path="/wedge/defaults/IMAGER_SETTINGS">500</Key>
+			<Key name="PREF_EAN13" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DPR_CHARSET" path="/wedge/defaults/DEFAULT">ISO-8859-1</Key>
+			<Key name="DEC_RSS_LIMITED_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_DATABAR">false</Key>
+			<Key name="DPR_PREFIX" path="/wedge/defaults/DEFAULT"/>
+			<Key name="DEC_UPCE_5CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+			<Key name="PREF_CHINA_POST" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_EAN13_CHECK_DIGIT_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+			<Key name="DEC_I25_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">true</Key>
+			<Key name="DEC_CODE11_CHECK_DIGIT_MODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_11">doubleDigitCheckAndStrip</Key>
+			<Key name="PREF_DEC_RSS_14_ENABLED" path="/wedge/defaults/DECODE_SETTINGS/PREF_GS1_DATABAR">High Priority</Key>
+			<Key name="DEC_CODE39_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">true</Key>
+			<Key name="DEC_DOTCODE_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DOTCODE">false</Key>
+			<Key name="PREF_DEC_RSS_EXPANDED_ENABLED" path="/wedge/defaults/DECODE_SETTINGS/PREF_GS1_DATABAR">High Priority</Key>
+			<Key name="DEC_MSIP_SHORT_MARGIN" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MSI">false</Key>
+			<Key name="NTF_PKG_VERIFY_ENABLED" path="/wedge/defaults/NOTIFICATION_SETTINGS">false</Key>
+			<Key name="DEC_POSTAL_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TWO_D_POSTAL">none</Key>
+			<Key name="DEC_MAXICODE_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MAXICODE">false</Key>
+			<Key name="DEC_MSI_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MSI">48</Key>
+			<Key name="DEC_PDF417_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/PDF_417">true</Key>
+			<Key name="PREF_CODE_93" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_EAN8_2CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+			<Key name="DEC_EAN8_ADDENDA_SEPARATOR" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+			<Key name="DEC_COMPOSITE_WITH_UPC_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/COMPOSITE">false</Key>
+			<Key name="DEC_WINDOW_TIMEOUT" path="/wedge/defaults/DECODE_SETTINGS/DECODE_WINDOW">0</Key>
+			<Key name="IMG_MAX_GAIN" path="/wedge/defaults/IMAGER_SETTINGS">1024</Key>
+			<Key name="IMG_GAIN" path="/wedge/defaults/IMAGER_SETTINGS">768</Key>
+			<Key name="DEC_WINDOW_LEFT" path="/wedge/defaults/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+			<Key name="DEC_CODABLOCK_F_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABLOCK_F">2048</Key>
+			<Key name="DEC_EAN13_2CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+			<Key name="DEC_GS1_128_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_128">80</Key>
+			<Key name="DEC_UPCA_5CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="DEC_CODE93_HIGH_DENSITY" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_93">false</Key>
+			<Key name="DEC_CODE39_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">0</Key>
+			<Key name="PREF_CODE_128" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="NTF_BAD_READ_ENABLED" path="/wedge/defaults/DEFAULT">false</Key>
+			<Key name="DEC_EAN8_CHECK_DIGIT_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+			<Key name="DEC_EAN13_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_13">true</Key>
+			<Key name="DEC_WINDOW_TOP" path="/wedge/defaults/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+			<Key name="DEC_CODE93_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_93">80</Key>
+			<Key name="DEC_S25_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/STANDARD_2_5">false</Key>
+			<Key name="DEC_M25_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MATRIX_2_5">4</Key>
+			<Key name="DEC_I25_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">2</Key>
+			<Key name="DEC_M25_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MATRIX_2_5">80</Key>
+			<Key name="PREF_MATRIX_2_5" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="IMG_OVERRIDE_RECOMMENDED_VALUES" path="/wedge/defaults/IMAGER_SETTINGS">false</Key>
+			<Key name="DPR_SUFFIX" path="/wedge/defaults/DEFAULT"/>
+			<Key name="DEC_ID_PROP_USE_ROI" path="/wedge/defaults/DECODE_SETTINGS">Disable</Key>
+			<Key name="DEC_SECURITY_LEVEL" path="/wedge/defaults/DECODE_SETTINGS">2</Key>
+			<Key name="DEC_DATAMATRIX_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DATAMATRIX">3116</Key>
+			<Key name="DEC_CODE128_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_128">true</Key>
+			<Key name="DEC_GRIDMATRIX_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GRIDMATRIX">false</Key>
+			<Key name="DPR_DATA_INTENT_ACTION" path="/wedge/defaults/DEFAULT"/>
+			<Key name="DEC_CODE128_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_128">0</Key>
+			<Key name="DEC_PDF417_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/PDF_417">2750</Key>
+			<Key name="DEC_I25_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">80</Key>
+			<Key name="DEC_GRIDMATRIX_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GRIDMATRIX">1</Key>
+			<Key name="DEC_COUPON_CODE_MODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="DEC_DIGIMARC_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DIGIMARC">false</Key>
+			<Key name="PREF_AZTEC" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="PREF_MSI" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_TELEPEN_OLD_STYLE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TELEPEN">false</Key>
+			<Key name="DEC_MSI_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MSI">false</Key>
+			<Key name="DEC_QR_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/QR_CODE">true</Key>
+			<Key name="NTF_PKG_VERIFY_HIGH_QUALITY_SAVE_ENABLED" path="/wedge/defaults/NOTIFICATION_SETTINGS">false</Key>
+			<Key name="DEC_M25_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MATRIX_2_5">false</Key>
+			<Key name="DEC_CODABLOCK_F_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABLOCK_F">1</Key>
+			<Key name="TRIG_SCAN_DELAY" path="/wedge/defaults/DEFAULT">0</Key>
+			<Key name="DEC_CODE11_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_11">false</Key>
+			<Key name="DPR_WEDGE_KEY_CHARS" path="/wedge/defaults/DEFAULT">9,10,13</Key>
+			<Key name="DEC_CODE11_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_11">80</Key>
+			<Key name="PREF_UPCA" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DPR_DATA_INTENT_CATEGORY" path="/wedge/defaults/DEFAULT"/>
+			<Key name="IMG_UPLOAD_BAD_READ_IMAGE" path="/wedge/defaults/LEARNINGENGINE_SETTINGS">false</Key>
+			<Key name="DEC_EAN13_5CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+			<Key name="PREF_DEC_RSS_LIMITED_ENABLED" path="/wedge/defaults/DECODE_SETTINGS/PREF_GS1_DATABAR">High Priority</Key>
+			<Key name="DEC_DPM_ENABLED" path="/wedge/defaults/DECODE_SETTINGS">none</Key>
+			<Key name="DEC_DOTCODE_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DOTCODE">2400</Key>
+			<Key name="PREF_UPCE" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_POSTNET_CHECK_DIGIT_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TWO_D_POSTAL">false</Key>
+			<Key name="DEC_UPCE_ADDENDA_REQUIRED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+			<Key name="DEC_CODABLOCK_A_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABLOCK_A">2048</Key>
+			<Key name="DPR_SYMBOLOGY_PREFIX" path="/wedge/defaults/DEFAULT">none</Key>
+			<Key name="DEC_IATA25_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/IATA_2_5">4</Key>
+			<Key name="DEC_RSS_EXPANDED_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_DATABAR">true</Key>
+			<Key name="DEC_UPCE0_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">true</Key>
+			<Key name="DEC_UPCE_2CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+			<Key name="DEC_I25_SHORT_MARGIN" path="/wedge/defaults/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">partial</Key>
+			<Key name="DEC_HK25_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CHINA_POST">false</Key>
+			<Key name="PREF_QR_CODE" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="TRIG_AUTO_MODE_TIMEOUT" path="/wedge/defaults/DEFAULT">20</Key>
+			<Key name="DPR_EDIT_DATA_SETTINGS" path="/wedge/defaults/DEFAULT"/>
+			<Key name="DEC_EAN13_ADDENDA_REQUIRED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+			<Key name="DEC_OCR_TEMPLATE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/OCR">1,3,7,7,7,7,7,7,7,7,0</Key>
+			<Key name="DEC_GOCR_PHONENUMBER" path="/wedge/defaults/SYMBOLOGY_SETTINGS/Generic_OCR">false</Key>
+			<Key name="TRIG_CONTROL_MODE" path="/wedge/defaults/DEFAULT">autoControl</Key>
+			<Key name="DEC_CODABAR_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABAR">2</Key>
+			<Key name="IMG_SAMPLE_METHOD" path="/wedge/defaults/IMAGER_SETTINGS">centerMetering</Key>
+			<Key name="NTF_GOOD_READ_ENABLED" path="/wedge/defaults/DEFAULT">true</Key>
+			<Key name="IMG_UPLOAD_FOLDER_MAX_SIZE" path="/wedge/defaults/LEARNINGENGINE_SETTINGS">90</Key>
+			<Key name="DEC_KOREA_POST_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/KOREAN_POST">4</Key>
+			<Key name="DEC_DIGIMARC_SHAPE_DETECTION" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DIGIMARC">false</Key>
+			<Key name="PREF_DOTCODE" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_HANXIN_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/HAN_XIN">7833</Key>
+			<Key name="DEC_I25_CHECK_DIGIT_MODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">noCheck</Key>
+			<Key name="DEC_C128_OUT_OF_SPEC_SYMBOL" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_128">none</Key>
+			<Key name="PREF_OCR" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_DECODE_FILTER_DEBUG" path="/wedge/defaults/DECODE_SETTINGS/DECODE_FILTER">0</Key>
+			<Key name="DEC_DECODE_FILTER" path="/wedge/defaults/DECODE_SETTINGS/DECODE_FILTER"/>
+			<Key name="DEC_WINDOW_RIGHT" path="/wedge/defaults/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+			<Key name="PREF_CODABLOCK_F" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="IMG_MAX_EXPOSURE" path="/wedge/defaults/IMAGER_SETTINGS">60000</Key>
+			<Key name="PREF_MICRO_PDF_417" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DPR_DATA_INTENT_PACKAGE_NAME" path="/wedge/defaults/DEFAULT"/>
+			<Key name="DPR_WEDGE" path="/wedge/defaults/DEFAULT">true</Key>
+			<Key name="DEC_CODABAR_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABAR">true</Key>
+			<Key name="PREF_CODABLOCK_A" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_UPCE_EXPAND" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+			<Key name="DEC_EAN8_5CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+			<Key name="DEC_S25_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/STANDARD_2_5">4</Key>
+			<Key name="DEC_UPCA_CHECK_DIGIT_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="PREF_CODE_39" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_UPCA_2CHAR_ADDENDA_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="DEC_DECODER_TIMEOUT" path="/wedge/defaults/DECODE_SETTINGS">150</Key>
+			<Key name="DEC_MAXICODE_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MAXICODE">150</Key>
+			<Key name="IMG_REJECTION_LIMIT" path="/wedge/defaults/IMAGER_SETTINGS">0</Key>
+			<Key name="DPR_SCAN_TO_INTENT" path="/wedge/defaults/DEFAULT">true</Key>
+			<Key name="DEC_GS1_128_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_128">true</Key>
+			<Key name="DEC_UPCA_ADDENDA_REQUIRED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="NTF_VIBRATE_ENABLED" path="/wedge/defaults/DEFAULT">false</Key>
+			<Key name="IMG_UPLOAD_QUOTA_SIZE" path="/wedge/defaults/LEARNINGENGINE_SETTINGS">300</Key>
+			<Key name="DEC_CODABAR_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABAR">60</Key>
+			<Key name="DEC_SYMBOLOGY_PREF" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">false</Key>
+			<Key name="DEC_RSS_EXPANDED_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_DATABAR">1</Key>
+			<Key name="DEC_UPC_SHORT_MARGIN" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_EAN">partial</Key>
+			<Key name="DEC_HK25_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CHINA_POST">80</Key>
+			<Key name="DEC_CODABLOCK_F_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABLOCK_F">false</Key>
+			<Key name="IMG_UPLOAD_GOOD_READ_IMAGE" path="/wedge/defaults/LEARNINGENGINE_SETTINGS">false</Key>
+			<Key name="DEC_AZTEC_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/AZTEC">1</Key>
+			<Key name="PREF_DATAMATRIX" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="TRIG_SCAN_SAME_SYMBOL_TIMEOUT_ENABLED" path="/wedge/defaults/DEFAULT">false</Key>
+			<Key name="PREF_KOREAN_POST" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_VIDEO_REVERSE_ENABLED" path="/wedge/defaults/DECODE_SETTINGS">normal</Key>
+			<Key name="DEC_OCR_ACTIVE_TEMPLATES" path="/wedge/defaults/SYMBOLOGY_SETTINGS/OCR">1</Key>
+			<Key name="DEC_DOTCODE_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DOTCODE">1</Key>
+			<Key name="DEC_UPCE_CHECK_DIGIT_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+			<Key name="DEC_RSS_14_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_DATABAR">false</Key>
+			<Key name="DEC_AZTEC_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/AZTEC">true</Key>
+			<Key name="PREF_CODE_11" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_AZTEC_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/AZTEC">3832</Key>
+			<Key name="DEC_C128_SHORT_MARGIN" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_128">partial</Key>
+			<Key name="DEC_UPCA_TRANSLATE_TO_EAN13" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="DEC_COMBINE_COUPON_CODES" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="DEC_PROP_MSIP_OUT_OF_SPEC_SYMBOL" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MSI">false</Key>
+			<Key name="DEC_CODE39_CHECK_DIGIT_MODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">noCheck</Key>
+			<Key name="DEC_DECODE_SET" path="/wedge/defaults/DECODE_SETTINGS"/>
+			<Key name="DEC_UPCE_NUMBER_SYSTEM_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">true</Key>
+			<Key name="DEC_EAN13_ADDENDA_SEPARATOR" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+			<Key name="DEC_MAXICODE_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MAXICODE">1</Key>
+			<Key name="PREF_HAN_XIN" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_S25_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/STANDARD_2_5">48</Key>
+			<Key name="DEC_COMPOSITE_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/COMPOSITE">1</Key>
+			<Key name="DEC_CODE128_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_128">80</Key>
+			<Key name="PREF_TRIOPTIC" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_QR_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/QR_CODE">1</Key>
+			<Key name="DEC_DATAMATRIX_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DATAMATRIX">true</Key>
+			<Key name="DEC_HANXIN_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/HAN_XIN">false</Key>
+			<Key name="IMG_ILLUM_INTENSITY" path="/wedge/defaults/IMAGER_SETTINGS">100</Key>
+			<Key name="DEC_OCR_MODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/OCR">off</Key>
+			<Key name="DEC_CODE93_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_93">false</Key>
+			<Key name="DEC_UPCE1_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+			<Key name="DEC_DIGIMARC_SCALE_BLOCKS" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DIGIMARC">useBothScale1AndScale3Blocks</Key>
+			<Key name="DEC_EAN8_ADDENDA_REQUIRED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+			<Key name="DEC_GRIDMATRIX_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GRIDMATRIX">2751</Key>
+			<Key name="DEC_IATA25_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/IATA_2_5">false</Key>
+			<Key name="DEC_CODABAR_CONCAT_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABAR">false</Key>
+			<Key name="PREF_PDF_417" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_CODABAR_CHECK_DIGIT_MODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABAR">noCheck</Key>
+			<Key name="PREF_CODABAR" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_DATAMATRIX_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DATAMATRIX">1</Key>
+			<Key name="DEC_GS1_128_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_128">0</Key>
+			<Key name="PREF_GS1_128" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_CODE11_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_11">1</Key>
+			<Key name="DEC_CODE39_UNCONV_INTER_CHAR" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+			<Key name="DEC_KOREA_POST_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/KOREAN_POST">false</Key>
+			<Key name="PREF_TELEPEN" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_CODABLOCK_A_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABLOCK_A">false</Key>
+			<Key name="DPR_EDIT_DATA_PLUGIN" path="/wedge/defaults/DEFAULT"/>
+			<Key name="DEC_CODE39_BASE32_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+			<Key name="IMG_AUTO_CALIBRATION" path="/wedge/defaults/IMAGER_SETTINGS">true</Key>
+			<Key name="DEC_UPCA_ADDENDA_SEPARATOR" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+			<Key name="DEC_HANXIN_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/HAN_XIN">1</Key>
+			<Key name="DEC_TELEPEN_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TELEPEN">false</Key>
+			<Key name="DPR_DATA_INTENT" path="/wedge/defaults/DEFAULT">false</Key>
+			<Key name="DPR_WEDGE_METHOD" path="/wedge/defaults/DEFAULT">standard</Key>
+			<Key name="DEC_KOREA_POST_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/KOREAN_POST">48</Key>
+			<Key name="PREF_DIGIMARC" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_COMBINE_COMPOSITES" path="/wedge/defaults/SYMBOLOGY_SETTINGS/COMPOSITE">false</Key>
+			<Key name="DEC_UPCA_ENABLE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">true</Key>
+			<Key name="PREF_EAN8" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="IMG_TARGET_PERCENTILE" path="/wedge/defaults/IMAGER_SETTINGS">97</Key>
+			<Key name="DEC_TLC39_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TLC_39">false</Key>
+			<Key name="DEC_PLANETCODE_CHECK_DIGIT_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/TWO_D_POSTAL">false</Key>
+			<Key name="DEC_CODABAR_START_STOP_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABAR">false</Key>
+			<Key name="IMG_TARGET_ACCEPTABLE_OFFSET" path="/wedge/defaults/IMAGER_SETTINGS">5</Key>
+			<Key name="DEC_MSI_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MSI">4</Key>
+			<Key name="DEC_WINDOW_MODE" path="/wedge/defaults/DECODE_SETTINGS/DECODE_WINDOW">false</Key>
+			<Key name="DEC_MICROPDF_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/MICRO_PDF_417">false</Key>
+			<Key name="DEC_HK25_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CHINA_POST">4</Key>
+			<Key name="DEC_COMPOSITE_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/COMPOSITE">2435</Key>
+			<Key name="DEC_CODE39_FULL_ASCII_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+			<Key name="DEC_IATA25_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/IATA_2_5">64</Key>
+			<Key name="DEC_LINEAR_DAMAGE_IMPROVEMENTS" path="/wedge/defaults/DECODE_SETTINGS">false</Key>
+			<Key name="DEC_CODE93_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_93">0</Key>
+			<Key name="DEC_QR_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/QR_CODE">7089</Key>
+			<Key name="NTF_PKG_VERIFY_MAX_FOLDER_SIZE" path="/wedge/defaults/NOTIFICATION_SETTINGS">200</Key>
+			<Key name="DEC_COMPOSITE_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/COMPOSITE">false</Key>
+			<Key name="DPR_DATA_INTENT_EXTRA_KEY" path="/wedge/defaults/DEFAULT"/>
+			<Key name="DEC_DIGIMARC_CONVERSION" path="/wedge/defaults/SYMBOLOGY_SETTINGS/DIGIMARC">Compatible</Key>
+			<Key name="DPR_LAUNCH_EZ_CONFIG" path="/wedge/defaults/DEFAULT">true</Key>
+			<Key name="DEC_CODABLOCK_A_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODABLOCK_A">1</Key>
+			<Key name="DEC_GOCR_ZIPCODE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/Generic_OCR">false</Key>
+			<Key name="DEC_RSS_EXPANDED_MAX_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/GS1_DATABAR">74</Key>
+			<Key name="TRIG_SCAN_MODE" path="/wedge/defaults/DEFAULT">oneShot</Key>
+			<Key name="DEC_ADD_SEARCH_TIME_UPC_COMPOSITE" path="/wedge/defaults/SYMBOLOGY_SETTINGS/COMPOSITE">300</Key>
+			<Key name="PREF_INTERLEAVED_2_5" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="PREF_TLC_39" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_UPCA_NUMBER_SYSTEM_TRANSMIT" path="/wedge/defaults/SYMBOLOGY_SETTINGS/UPC_A">true</Key>
+			<Key name="DEC_PDF417_MIN_LENGTH" path="/wedge/defaults/SYMBOLOGY_SETTINGS/PDF_417">1</Key>
+			<Key name="PREF_IATA_2_5" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="IMG_EXPOSURE_MODE" path="/wedge/defaults/IMAGER_SETTINGS">autoExposure</Key>
+			<Key name="DPR_DATA_INTENT_CLASS_NAME" path="/wedge/defaults/DEFAULT"/>
+			<Key name="IMG_TARGET_VALUE" path="/wedge/defaults/IMAGER_SETTINGS">180</Key>
+			<Key name="PREF_STANDARD_2_5" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+			<Key name="DEC_C128_ISBT_ENABLED" path="/wedge/defaults/SYMBOLOGY_SETTINGS/CODE_128">false</Key>
+			<Key name="PREF_MAXICODE" path="/wedge/defaults/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+		</Section>
+		<Key name="PROFILE_LIST">dcs.scanner.imager/DEFAULT;dcs.scanner.imager/Learning Engine;</Key>
+		<Section name="profiles">
+			<Section name="dcs.scanner.imager">
+				<Section name="Learning Engine">
+					<Key name="IMG_UPLOAD_QUOTA_SIZE" path="/wedge/profiles/dcs.scanner.imager/Learning Engine/LEARNINGENGINE_SETTINGS">300</Key>
+					<Key name="IMG_UPLOAD_BAD_READ_IMAGE" path="/wedge/profiles/dcs.scanner.imager/Learning Engine/LEARNINGENGINE_SETTINGS">false</Key>
+					<Key name="IMG_UPLOAD_GOOD_READ_IMAGE" path="/wedge/profiles/dcs.scanner.imager/Learning Engine/LEARNINGENGINE_SETTINGS">false</Key>
+					<Key name="IMG_UPLOAD_FOLDER_MAX_SIZE" path="/wedge/profiles/dcs.scanner.imager/Learning Engine/LEARNINGENGINE_SETTINGS">90</Key>
+				</Section>
+				<Section name="DEFAULT">
+					<Key name="DPR_LAUNCH_BROWSER" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">true</Key>
+					<Key name="DEC_WINDOW_BOTTOM" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+					<Key name="DEC_UPCE_ADDENDA_SEPARATOR" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+					<Key name="PREF_GRIDMATRIX" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_MICROPDF_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MICRO_PDF_417">1</Key>
+					<Key name="TRIG_SCAN_SAME_SYMBOL_TIMEOUT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">1000</Key>
+					<Key name="DEC_TELEPEN_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TELEPEN">1</Key>
+					<Key name="DEC_CODE39_START_STOP_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+					<Key name="DEC_TELEPEN_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TELEPEN">60</Key>
+					<Key name="DEC_MICROPDF_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MICRO_PDF_417">366</Key>
+					<Key name="DEC_EAN8_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_8">true</Key>
+					<Key name="TRIG_ENABLE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">true</Key>
+					<Key name="DEC_TRIOPTIC_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TRIOPTIC">false</Key>
+					<Key name="DEC_CODE39_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">48</Key>
+					<Key name="DEC_MSI_CHECK_DIGIT_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MSI">noCheck</Key>
+					<Key name="DEC_SYMBOLOGY_TIMEOUT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">500</Key>
+					<Key name="IMG_EXPOSURE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">500</Key>
+					<Key name="PREF_EAN13" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DPR_CHARSET" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">ISO-8859-1</Key>
+					<Key name="DEC_RSS_LIMITED_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_DATABAR">false</Key>
+					<Key name="DPR_PREFIX" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="DEC_UPCE_5CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+					<Key name="PREF_CHINA_POST" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_EAN13_CHECK_DIGIT_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+					<Key name="DEC_I25_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">true</Key>
+					<Key name="DEC_CODE11_CHECK_DIGIT_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_11">doubleDigitCheckAndStrip</Key>
+					<Key name="PREF_DEC_RSS_14_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREF_GS1_DATABAR">High Priority</Key>
+					<Key name="DEC_CODE39_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">true</Key>
+					<Key name="DEC_MSIP_SHORT_MARGIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MSI">false</Key>
+					<Key name="PREF_DEC_RSS_EXPANDED_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREF_GS1_DATABAR">High Priority</Key>
+					<Key name="DEC_DOTCODE_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DOTCODE">false</Key>
+					<Key name="NTF_PKG_VERIFY_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/NOTIFICATION_SETTINGS">false</Key>
+					<Key name="DEC_POSTAL_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TWO_D_POSTAL">none</Key>
+					<Key name="DEC_MAXICODE_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MAXICODE">false</Key>
+					<Key name="DEC_MSI_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MSI">48</Key>
+					<Key name="DEC_PDF417_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/PDF_417">true</Key>
+					<Key name="PREF_CODE_93" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_EAN8_ADDENDA_SEPARATOR" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+					<Key name="DEC_EAN8_2CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+					<Key name="DEC_COMPOSITE_WITH_UPC_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/COMPOSITE">false</Key>
+					<Key name="DEC_WINDOW_TIMEOUT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_WINDOW">0</Key>
+					<Key name="IMG_MAX_GAIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">1024</Key>
+					<Key name="IMG_GAIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">768</Key>
+					<Key name="DEC_WINDOW_LEFT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+					<Key name="DEC_CODABLOCK_F_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABLOCK_F">2048</Key>
+					<Key name="DEC_EAN13_2CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+					<Key name="DEC_GS1_128_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_128">80</Key>
+					<Key name="DEC_UPCA_5CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="DEC_CODE93_HIGH_DENSITY" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_93">false</Key>
+					<Key name="DEC_CODE39_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">0</Key>
+					<Key name="PREF_CODE_128" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="NTF_BAD_READ_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">false</Key>
+					<Key name="DEC_EAN13_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_13">true</Key>
+					<Key name="DEC_EAN8_CHECK_DIGIT_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+					<Key name="DEC_WINDOW_TOP" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+					<Key name="DEC_CODE93_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_93">80</Key>
+					<Key name="DEC_S25_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/STANDARD_2_5">false</Key>
+					<Key name="DEC_M25_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MATRIX_2_5">4</Key>
+					<Key name="DEC_I25_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">2</Key>
+					<Key name="DEC_M25_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MATRIX_2_5">80</Key>
+					<Key name="PREF_MATRIX_2_5" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="IMG_OVERRIDE_RECOMMENDED_VALUES" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">false</Key>
+					<Key name="DPR_SUFFIX" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="DEC_ID_PROP_USE_ROI" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS">Disable</Key>
+					<Key name="DEC_SECURITY_LEVEL" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS">2</Key>
+					<Key name="DEC_DATAMATRIX_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DATAMATRIX">3116</Key>
+					<Key name="DEC_CODE128_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_128">true</Key>
+					<Key name="DEC_GRIDMATRIX_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GRIDMATRIX">false</Key>
+					<Key name="DPR_DATA_INTENT_ACTION" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="DEC_CODE128_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_128">0</Key>
+					<Key name="DEC_GRIDMATRIX_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GRIDMATRIX">1</Key>
+					<Key name="DEC_I25_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">80</Key>
+					<Key name="DEC_PDF417_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/PDF_417">2750</Key>
+					<Key name="DEC_COUPON_CODE_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="DEC_DIGIMARC_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DIGIMARC">false</Key>
+					<Key name="PREF_AZTEC" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="PREF_MSI" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_TELEPEN_OLD_STYLE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TELEPEN">false</Key>
+					<Key name="DEC_MSI_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MSI">false</Key>
+					<Key name="NTF_PKG_VERIFY_HIGH_QUALITY_SAVE_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/NOTIFICATION_SETTINGS">false</Key>
+					<Key name="DEC_QR_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/QR_CODE">true</Key>
+					<Key name="DEC_M25_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MATRIX_2_5">false</Key>
+					<Key name="DEC_CODABLOCK_F_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABLOCK_F">1</Key>
+					<Key name="TRIG_SCAN_DELAY" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">0</Key>
+					<Key name="DEC_CODE11_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_11">false</Key>
+					<Key name="DPR_WEDGE_KEY_CHARS" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">9,10,13</Key>
+					<Key name="PREF_UPCA" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_CODE11_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_11">80</Key>
+					<Key name="DPR_DATA_INTENT_CATEGORY" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="IMG_UPLOAD_BAD_READ_IMAGE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/LEARNINGENGINE_SETTINGS">false</Key>
+					<Key name="DEC_EAN13_5CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+					<Key name="PREF_DEC_RSS_LIMITED_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREF_GS1_DATABAR">High Priority</Key>
+					<Key name="DEC_DOTCODE_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DOTCODE">2400</Key>
+					<Key name="PREF_UPCE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_DPM_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS">none</Key>
+					<Key name="DEC_UPCE_ADDENDA_REQUIRED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+					<Key name="DEC_POSTNET_CHECK_DIGIT_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TWO_D_POSTAL">false</Key>
+					<Key name="DEC_CODABLOCK_A_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABLOCK_A">2048</Key>
+					<Key name="DPR_SYMBOLOGY_PREFIX" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">none</Key>
+					<Key name="DEC_IATA25_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/IATA_2_5">4</Key>
+					<Key name="DEC_RSS_EXPANDED_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_DATABAR">true</Key>
+					<Key name="DEC_UPCE0_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">true</Key>
+					<Key name="DEC_UPCE_2CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+					<Key name="DEC_I25_SHORT_MARGIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">partial</Key>
+					<Key name="DEC_HK25_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CHINA_POST">false</Key>
+					<Key name="PREF_QR_CODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="TRIG_AUTO_MODE_TIMEOUT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">20</Key>
+					<Key name="DEC_EAN13_ADDENDA_REQUIRED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+					<Key name="DPR_EDIT_DATA_SETTINGS" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="DEC_OCR_TEMPLATE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/OCR">1,3,7,7,7,7,7,7,7,7,0</Key>
+					<Key name="DEC_GOCR_PHONENUMBER" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/Generic_OCR">false</Key>
+					<Key name="TRIG_CONTROL_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">autoControl</Key>
+					<Key name="DEC_CODABAR_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABAR">2</Key>
+					<Key name="IMG_SAMPLE_METHOD" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">centerMetering</Key>
+					<Key name="NTF_GOOD_READ_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">true</Key>
+					<Key name="IMG_UPLOAD_FOLDER_MAX_SIZE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/LEARNINGENGINE_SETTINGS">90</Key>
+					<Key name="DEC_KOREA_POST_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/KOREAN_POST">4</Key>
+					<Key name="DEC_DIGIMARC_SHAPE_DETECTION" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DIGIMARC">false</Key>
+					<Key name="DEC_C128_OUT_OF_SPEC_SYMBOL" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_128">none</Key>
+					<Key name="DEC_I25_CHECK_DIGIT_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/INTERLEAVED_2_5">noCheck</Key>
+					<Key name="DEC_HANXIN_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/HAN_XIN">7833</Key>
+					<Key name="PREF_DOTCODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="PREF_OCR" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_DECODE_FILTER_DEBUG" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_FILTER">4</Key>
+					<Key name="DEC_DECODE_FILTER" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_FILTER">if(_event=='decode'){
+ var1=_aimId;
+ var2=_data;
+ if(_aimId==']E0'){
+   _data.regex('(.{11})(.)');
+   if(_match2){
+    _data=_match1;
+   }
+ }
+}
+					</Key>
+					<Key name="DEC_WINDOW_RIGHT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_WINDOW">50</Key>
+					<Key name="PREF_CODABLOCK_F" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="PREF_MICRO_PDF_417" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="IMG_MAX_EXPOSURE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">60000</Key>
+					<Key name="DPR_DATA_INTENT_PACKAGE_NAME" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="DPR_WEDGE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">true</Key>
+					<Key name="DEC_CODABAR_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABAR">true</Key>
+					<Key name="PREF_CODABLOCK_A" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_UPCE_EXPAND" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+					<Key name="DEC_EAN8_5CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+					<Key name="DEC_S25_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/STANDARD_2_5">4</Key>
+					<Key name="PREF_CODE_39" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_UPCA_CHECK_DIGIT_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="DEC_UPCA_2CHAR_ADDENDA_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="DEC_DECODER_TIMEOUT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS">150</Key>
+					<Key name="DEC_MAXICODE_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MAXICODE">150</Key>
+					<Key name="IMG_REJECTION_LIMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">0</Key>
+					<Key name="DPR_SCAN_TO_INTENT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">true</Key>
+					<Key name="DEC_GS1_128_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_128">true</Key>
+					<Key name="DEC_UPCA_ADDENDA_REQUIRED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="NTF_VIBRATE_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">false</Key>
+					<Key name="IMG_UPLOAD_QUOTA_SIZE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/LEARNINGENGINE_SETTINGS">300</Key>
+					<Key name="DEC_SYMBOLOGY_PREF" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">false</Key>
+					<Key name="DEC_CODABAR_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABAR">60</Key>
+					<Key name="DEC_RSS_EXPANDED_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_DATABAR">1</Key>
+					<Key name="DEC_UPC_SHORT_MARGIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_EAN">partial</Key>
+					<Key name="DEC_HK25_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CHINA_POST">80</Key>
+					<Key name="DEC_CODABLOCK_F_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABLOCK_F">false</Key>
+					<Key name="IMG_UPLOAD_GOOD_READ_IMAGE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/LEARNINGENGINE_SETTINGS">false</Key>
+					<Key name="DEC_AZTEC_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/AZTEC">1</Key>
+					<Key name="PREF_DATAMATRIX" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="TRIG_SCAN_SAME_SYMBOL_TIMEOUT_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">false</Key>
+					<Key name="DEC_OCR_ACTIVE_TEMPLATES" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/OCR">1</Key>
+					<Key name="DEC_VIDEO_REVERSE_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS">normal</Key>
+					<Key name="PREF_KOREAN_POST" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_DOTCODE_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DOTCODE">1</Key>
+					<Key name="DEC_UPCE_CHECK_DIGIT_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+					<Key name="DEC_RSS_14_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_DATABAR">false</Key>
+					<Key name="PREF_CODE_11" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_AZTEC_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/AZTEC">true</Key>
+					<Key name="DEC_AZTEC_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/AZTEC">3832</Key>
+					<Key name="DEC_C128_SHORT_MARGIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_128">partial</Key>
+					<Key name="DEC_UPCA_TRANSLATE_TO_EAN13" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="DEC_COMBINE_COUPON_CODES" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="DEC_PROP_MSIP_OUT_OF_SPEC_SYMBOL" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MSI">false</Key>
+					<Key name="DEC_CODE39_CHECK_DIGIT_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">noCheck</Key>
+					<Key name="DEC_DECODE_SET" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS"/>
+					<Key name="DEC_UPCE_NUMBER_SYSTEM_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">true</Key>
+					<Key name="DEC_EAN13_ADDENDA_SEPARATOR" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_13">false</Key>
+					<Key name="DEC_MAXICODE_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MAXICODE">1</Key>
+					<Key name="PREF_HAN_XIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_S25_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/STANDARD_2_5">48</Key>
+					<Key name="DEC_COMPOSITE_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/COMPOSITE">1</Key>
+					<Key name="DEC_CODE128_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_128">80</Key>
+					<Key name="PREF_TRIOPTIC" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_QR_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/QR_CODE">1</Key>
+					<Key name="DEC_DATAMATRIX_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DATAMATRIX">true</Key>
+					<Key name="DEC_HANXIN_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/HAN_XIN">false</Key>
+					<Key name="IMG_ILLUM_INTENSITY" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">100</Key>
+					<Key name="DEC_OCR_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/OCR">off</Key>
+					<Key name="DEC_CODE93_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_93">false</Key>
+					<Key name="DEC_UPCE1_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_E">false</Key>
+					<Key name="DEC_DIGIMARC_SCALE_BLOCKS" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DIGIMARC">useBothScale1AndScale3Blocks</Key>
+					<Key name="DEC_EAN8_ADDENDA_REQUIRED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/EAN_8">false</Key>
+					<Key name="DEC_GRIDMATRIX_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GRIDMATRIX">2751</Key>
+					<Key name="DEC_CODABAR_CONCAT_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABAR">false</Key>
+					<Key name="DEC_IATA25_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/IATA_2_5">false</Key>
+					<Key name="PREF_PDF_417" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_CODABAR_CHECK_DIGIT_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABAR">noCheck</Key>
+					<Key name="PREF_CODABAR" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_DATAMATRIX_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DATAMATRIX">1</Key>
+					<Key name="PREF_GS1_128" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_GS1_128_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_128">0</Key>
+					<Key name="DEC_CODE11_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_11">1</Key>
+					<Key name="DEC_CODE39_UNCONV_INTER_CHAR" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+					<Key name="DEC_KOREA_POST_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/KOREAN_POST">false</Key>
+					<Key name="PREF_TELEPEN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DPR_EDIT_DATA_PLUGIN" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="DEC_CODABLOCK_A_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABLOCK_A">false</Key>
+					<Key name="DEC_CODE39_BASE32_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+					<Key name="IMG_AUTO_CALIBRATION" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">true</Key>
+					<Key name="DEC_UPCA_ADDENDA_SEPARATOR" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">false</Key>
+					<Key name="DEC_HANXIN_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/HAN_XIN">1</Key>
+					<Key name="DEC_TELEPEN_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TELEPEN">false</Key>
+					<Key name="DPR_DATA_INTENT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">false</Key>
+					<Key name="DPR_WEDGE_METHOD" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">standard</Key>
+					<Key name="DEC_KOREA_POST_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/KOREAN_POST">48</Key>
+					<Key name="PREF_DIGIMARC" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_COMBINE_COMPOSITES" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/COMPOSITE">false</Key>
+					<Key name="DEC_UPCA_ENABLE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">true</Key>
+					<Key name="PREF_EAN8" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="IMG_TARGET_PERCENTILE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">97</Key>
+					<Key name="DEC_TLC39_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TLC_39">false</Key>
+					<Key name="DEC_PLANETCODE_CHECK_DIGIT_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/TWO_D_POSTAL">false</Key>
+					<Key name="DEC_CODABAR_START_STOP_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABAR">false</Key>
+					<Key name="IMG_TARGET_ACCEPTABLE_OFFSET" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">5</Key>
+					<Key name="DEC_MSI_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MSI">4</Key>
+					<Key name="DEC_WINDOW_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/DECODE_WINDOW">false</Key>
+					<Key name="DEC_MICROPDF_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/MICRO_PDF_417">false</Key>
+					<Key name="DEC_HK25_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CHINA_POST">4</Key>
+					<Key name="DEC_COMPOSITE_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/COMPOSITE">2435</Key>
+					<Key name="DEC_CODE39_FULL_ASCII_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_39">false</Key>
+					<Key name="DEC_LINEAR_DAMAGE_IMPROVEMENTS" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS">false</Key>
+					<Key name="DEC_IATA25_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/IATA_2_5">64</Key>
+					<Key name="DEC_CODE93_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_93">0</Key>
+					<Key name="DEC_QR_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/QR_CODE">7089</Key>
+					<Key name="NTF_PKG_VERIFY_MAX_FOLDER_SIZE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/NOTIFICATION_SETTINGS">200</Key>
+					<Key name="DPR_DATA_INTENT_EXTRA_KEY" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="DEC_COMPOSITE_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/COMPOSITE">false</Key>
+					<Key name="DEC_DIGIMARC_CONVERSION" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/DIGIMARC">Compatible</Key>
+					<Key name="DPR_LAUNCH_EZ_CONFIG" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">true</Key>
+					<Key name="DEC_CODABLOCK_A_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODABLOCK_A">1</Key>
+					<Key name="DEC_GOCR_ZIPCODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/Generic_OCR">false</Key>
+					<Key name="DEC_RSS_EXPANDED_MAX_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/GS1_DATABAR">74</Key>
+					<Key name="TRIG_SCAN_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT">oneShot</Key>
+					<Key name="DEC_ADD_SEARCH_TIME_UPC_COMPOSITE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/COMPOSITE">300</Key>
+					<Key name="PREF_INTERLEAVED_2_5" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="PREF_TLC_39" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_UPCA_NUMBER_SYSTEM_TRANSMIT" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/UPC_A">true</Key>
+					<Key name="DEC_PDF417_MIN_LENGTH" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/PDF_417">1</Key>
+					<Key name="PREF_IATA_2_5" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="IMG_EXPOSURE_MODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">autoExposure</Key>
+					<Key name="IMG_TARGET_VALUE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/IMAGER_SETTINGS">180</Key>
+					<Key name="DPR_DATA_INTENT_CLASS_NAME" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DEFAULT"/>
+					<Key name="PREF_STANDARD_2_5" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+					<Key name="DEC_C128_ISBT_ENABLED" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/SYMBOLOGY_SETTINGS/CODE_128">false</Key>
+					<Key name="PREF_MAXICODE" path="/wedge/profiles/dcs.scanner.imager/DEFAULT/DECODE_SETTINGS/PREFERRED_SYMBOLOGY_SETTINGS">High Priority</Key>
+				</Section>
+			</Section>
+		</Section>
+	</Section>
+</ConfigDoc>

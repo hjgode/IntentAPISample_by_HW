@@ -202,6 +202,16 @@ These extras are available:
         properties.putInt("TRIG_AUTO_MODE_TIMEOUT", 2);
         properties.putString("TRIG_SCAN_MODE", "readOnRelease"); //This works for Hardware Trigger only! If scan is started from code, the code is responsible for a switching off the scanner before a decode
 
+        //change some barcode properties
+        final String PROPERTY_UPC_A_ENABLE="DEC_UPCA_ENABLE";
+        final String PROPERTY_UPC_E_ENABLED="DEC_UPCE0_ENABLED";
+
+        properties.putBoolean(PROPERTY_UPC_A_ENABLE, true);
+        properties.putBoolean(PROPERTY_UPC_E_ENABLED, true);
+
+        //or, with use of custom ConstantValues class
+        properties.putBoolean(ConstantValues.PROPERTY_UPC_A_CHECK_DIGIT_TRANSMIT_ENABLED, true);
+
         mysendBroadcast(new Intent(ACTION_CLAIM_SCANNER)
                 .putExtra(EXTRA_SCANNER, "dcs.scanner.imager")
                 .putExtra(EXTRA_PROFILE, "DEFAULT")// "MyProfile1")
