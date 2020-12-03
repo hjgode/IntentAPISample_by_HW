@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import java.util.List;
@@ -176,6 +178,21 @@ These extras are available:
                 }, 3000);
             }
         });
+        CheckBox checkBox=findViewById(R.id.checkBox);
+        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                String controlMode=(b?ConstantValues.TRIGGER_CONTROL_MODE_AUTO_CONTROL:ConstantValues.TRIGGER_CONTROL_MODE_DISABLE);
+                Bundle properties = new Bundle();
+                properties.putString(ConstantValues.PROPERTY_TRIGGER_CONTROL_MODE, controlMode);
+                mysendBroadcast(new Intent(ACTION_CLAIM_SCANNER)
+                        .putExtra(EXTRA_SCANNER, "dcs.scanner.imager")
+                        .putExtra(EXTRA_PROFILE, "DEFAULT")// "MyProfile1")
+                        .putExtra(EXTRA_PROPERTIES, properties)
+                );
+            }
+        });
+        claimScanner();
         Log.d("IntentApiSample: ", "onCreate");
     }
     @Override
